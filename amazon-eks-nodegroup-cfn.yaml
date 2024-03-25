@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Create EKS Node Group'
+Description: 'Create EKS Node Group from CloudFormation'
 
 Metadata:
   AWS::CloudFormation::Interface:
