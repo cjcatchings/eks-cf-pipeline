@@ -4,8 +4,8 @@ phases:
   build:
     commands:
       - echo "Start Eks Build"
-    artifacts:
-      files:
-        - './amazon-*.yaml'
-      exclude-paths:
-        - './amazon-codebuild-eks-cfn.yaml'
+  artifacts:
+    files:
+      - './amazon-*.yaml'
+    exclude-paths:
+      - './amazon-codebuild-eks-cfn.yaml'
